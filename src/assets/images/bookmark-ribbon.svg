@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 38.517">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #121212;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="bookmark-ribbon" transform="translate(-50 1)">
+    <g id="bookmark" transform="translate(51)">
+      <path id="Path_300" data-name="Path 300" class="cls-1" d="M75,0H55a4.012,4.012,0,0,0-4,4V36l14-6,14,6V4A4.012,4.012,0,0,0,75,0Z" transform="translate(-51)"/>
+    </g>
+  </g>
+</svg>

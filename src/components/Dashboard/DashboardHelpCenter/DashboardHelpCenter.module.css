@@ -1,0 +1,824 @@
+.main_dashboardWrap {
+    background-color: #F6F6F6;
+}
+
+.home_top {
+    padding: 20px 50px;
+}
+
+.home_topLeft {
+    display: flex;
+    align-items: center;
+}
+
+.home_topLeft h2 {
+    font-family: "montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    margin: 0 15px 0 0;
+}
+
+/*  */
+
+.market_itemWrap {
+    padding: 10px 50px 60px 50px;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.market_itemBox {
+    width: 100%;
+    /* height: 337px; */
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 25px rgba(18, 18, 18, 0.03));
+    background: #ffffff;
+    padding: 20px;
+}
+
+/* search tab css */
+.help_searchWrap {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 45px 0;
+    background-image: url(../../../assets/images/Group\ 1218.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.help_search {
+    width: 860px;
+    margin: auto;
+}
+
+.help_search h2 {
+    font-family: "montserrat";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 0px;
+}
+
+.help_search p {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+
+
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 20px 0px;
+}
+
+.help_search .help_searchBox {
+    position: relative;
+}
+
+.help_searchBox .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 860px;
+    height: 56px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    padding: 0 8px 0 20px;
+}
+
+.help_searchBox .search img {
+    height: 30px;
+}
+
+.help_searchBox .search .form_control_feedback {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.help_searchBox .search .search_btn {
+    height: 39px;
+    border-radius: 10px;
+    background: #fe3c72;
+    width: 105px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* search tab css end */
+
+/* topic box css */
+.title_h2 {
+    margin: 20px 0;
+}
+
+.title_h2 h2 {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.topic_box {
+    border-color: #e7e7e7;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.topic_box h3 {
+    width: 85px;
+    height: 85px;
+    background: #fb3b71;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.topic_box h2 {
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin-bottom: 18px;
+}
+
+.topic_box p {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.topic_box a {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+}
+
+.topic_box a:hover {
+    text-decoration: none;
+}
+
+/* topic box css end */
+
+/* help row css */
+.get_helpRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.get_helpRow h2 {
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.get_helpbtn {
+
+    position: relative;
+}
+
+.get_helpbtn .helpbtn {
+    width: 236px;
+    height: 51px;
+    border-color: #fe3c72;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 16px;
+    font-style: normal;
+    text-align: center;
+    color: #fe3c72;
+}
+
+.get_helpbtn img {
+    position: absolute;
+    right: -34px;
+    top: 8px;
+    height: 82px;
+}
+
+
+/* help row css end */
+
+/* help accordion css */
+.help_accordion {
+    padding: 20px 0px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    position: relative;
+}
+
+.help_accordion .img_dot {
+    height: 14px;
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+.help_accordion_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 15px;
+    padding-left: 32px;
+}
+
+.help_accordion_title h2 {
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.help_accordion_title img {
+    height: 16px;
+}
+
+.help_accordion_text {
+    padding-left: 32px;
+}
+
+.help_accordion_text p {
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.help_popup {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+    width: 560px;
+    height: auto;
+    border-radius: 10px;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.16));
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.help_popup .pop_title {
+    background: #fb3b71;
+    padding: 18px;
+}
+
+.help_popup .pop_title h2 {
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.help_popup .pop_title h2 img {
+    position: unset;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.pop_form {
+    padding: 35px 20px 20px;
+}
+
+.pop_form p {
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin-bottom: 30px;
+}
+
+.help_form form label {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.help_form form .form_group {
+    margin-bottom: 2rem;
+}
+
+.help_form form .form_group .form_control {
+    border-bottom: 1px solid #e7e7e7;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    padding-left: 0px;
+}
+
+.help_form form .popup_btn {
+    border-radius: 30px;
+    filter: drop-shadow(0px 3px 10px rgba(254, 60, 114, 0.45));
+    background: #fb3b71;
+    width: 100%;
+    outline: none;
+    border-color: transparent;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 22px;
+}
+
+/* help accordion css end */
+
+/* help center css */
+.helpCenter_wrap {
+    padding: 0px 0px 60px 0px;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.bread_crumbs {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 15px 65px 15px 65px;
+}
+
+.bread_crumbs ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.bread_crumbs ul li {
+    margin-right: 25px;
+}
+
+.bread_crumbs ul li a {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    cursor: pointer;
+}
+
+.bread_crumbs ul li a:hover {
+    text-decoration: none;
+}
+
+.bread_crumbs ul li p {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #fe3c72;
+    margin: 0px;
+}
+
+.we_helpMain {
+    padding: 45px 0;
+}
+
+.we_help {
+    width: 860px;
+    margin: auto;
+}
+
+.we_help h2 {
+    font-family: "montserrat";
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 0px;
+}
+
+.we_help p {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 20px auto 40px;
+    width: 545px;
+    position: relative;
+}
+
+.we_help p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    height: 4px;
+    width: 100px;
+    background-color: #fb3b71;
+    margin: auto;
+}
+
+.we_helpForm form .form_group label {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.we_helpForm form .form_group .form_control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #e7e7e7;
+    border-radius: 0px;
+    font-size: 15px;
+    color: #121212;
+    padding-left: 0px;
+    height: 100px;
+    box-shadow: none;
+    outline: none;
+}
+
+.we_helpForm form .form_group small {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+    color: #121212;
+    display: block;
+    margin-top: 10px;
+}
+
+.we_helpForm form .btn {
+    width: 560px;
+    height: 50px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 3px 10px rgba(254, 60, 114, 0.45));
+    background: #fb3b71;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    display: block;
+}
+
+/* help center css end */
+
+/* solution css */
+.title1_h2 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.help_accordion_text .solve_btn {
+    width: 370px;
+    height: 50px;
+    border-color: #fe3c72;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    margin-top: 20px;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fe3c72;
+}
+
+.acc_btns {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.acc_btns .still_btn {
+    width: 260px;
+    height: 51px;
+    border-color: #e7e7e7;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    margin-right: 15px;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.51);
+}
+
+.acc_btns .solve_btn {
+    width: 260px;
+    height: 50px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 3px 10px rgba(254, 60, 114, 0.45));
+    background: #fb3b71;
+    outline: none;
+    box-shadow: none;
+    margin-left: 15px;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+/* solution css end */
+
+/* contact boxes css */
+.contact_boxes {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.contact_box {
+    border-color: #e7e7e7;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 10px;
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 25px;
+    height: 100%;
+}
+
+.contact_box h3 {
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 0px;
+}
+
+.contact_box p {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 20px 0;
+}
+
+.contact_box a {
+    width: 100%;
+    border-color: #fb3b71;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 12px 0;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fe3c72;
+}
+
+.contact_box a:hover {
+    text-decoration: none;
+}
+
+.chat_box {
+    text-align: right;
+    position: relative;
+}
+
+.chat_box .chat_icon {
+    position: relative;
+}
+
+.chat_icon span {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    background: #121212;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 100%;
+}
+
+.chat_popup {
+    bottom: 115px;
+}
+
+.chat_form {
+    padding-bottom: 0px;
+}
+
+.chat_profile {
+    display: flex;
+    align-items: center;
+}
+
+.chat_profile_img {
+    position: relative;
+    margin-right: 20px;
+}
+
+.chat_profile_img .user_active {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.user_name p {
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.user_name p span {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.chat_boxeMain {
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.chat_boxe1 {
+    background: rgba(18, 18, 18, 0.05);
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-right: 70px;
+}
+
+.chat_boxe1 p {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0 0 12px;
+}
+
+.chat_boxe1 span {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    display: block;
+}
+
+.chat_boxe2 {
+    background: #FB3B71;
+    border-radius: 10px 0px 10px 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+}
+
+.chat_boxe2 p {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 0 0 12px;
+}
+
+.chat_boxe2 span {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    display: block;
+}
+
+.reply_box {
+    border-top: 1px solid #e7e7e7;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reply_box .msg_input {
+    width: 100%;
+    margin: 0 12px;
+    border: none;
+    height: 100%;
+    outline: none;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+/* contact boxes css end */

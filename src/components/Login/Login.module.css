@@ -1,0 +1,376 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    left: 4.17%;
+    right: 86.87%;
+    top: 2.78%;
+    bottom: 91.85%;
+}
+
+.dots1 {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 60px;
+
+}
+
+.dots2 {
+    position: absolute;
+    right: 15px;
+    bottom: 115px;
+    width: 60px;
+    transform: rotate(180deg);
+
+}
+
+.h1 {
+    /* position: absolute; */
+    width: 100%;
+    height: 32px;
+    font-family: "montserrat";
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 40px;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 24px;
+}
+
+.button {
+    position: absolute;
+    left: 39.58%;
+    right: 39.69%;
+    top: 65.56%;
+    bottom: 29.81%;
+    background: #FE3C72;
+    border-radius: 200px;
+}
+
+.info {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    font-family: "montserrat";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    font-style: normal;
+    text-align: center;
+    color: #717171;
+    margin: 20px 0 25px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    background: #f61d5e
+}
+
+
+body {
+    background: #FFFFFF;
+}
+
+.form {
+    background-color: white;
+    border-radius: 5px;
+    width: 470px;
+    margin: 20px auto;
+    padding: 20px 60px;
+    position: relative;
+}
+
+.form_input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+}
+
+.form_input:focus {
+    outline: oldlace;
+    box-shadow: none;
+    border-color: #fb3b71;
+}
+
+.formBody {
+    padding: 20px 10px;
+    margin-top: 100px;
+}
+
+.form__label {
+    width: 40%;
+}
+
+.form-control {
+    font-family: "montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.footer {
+    text-align: center;
+}
+
+.email {
+    opacity: 0.50;
+
+
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.password {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.loginBtn {
+    position: relative;
+    width: 100%;
+    height: 41px;
+
+    border-radius: 30px;
+
+    /* filter: drop-shadow(0px 3px 10px rgba(254, 60, 114, 0.45)); */
+    border-color: transparent;
+    background: #fb3b71;
+    margin-top: 15px;
+}
+.loginBtn:focus {
+outline: none;
+    filter: drop-shadow(0px 3px 10px rgba(254, 60, 114, 0.45));
+}
+
+.login {
+    width: 47px;
+    height: 17px;
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.keep {
+    width: 100%;
+    height: 18px;
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    margin-top: 10px;
+    color: #121212;
+    margin-left: 5px;
+}
+
+.formCheck {
+    flex-wrap: unset;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: baseline;
+}
+
+.forgot {
+    width: 100%;
+    height: 18px;
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    text-align: right;
+    margin-top: 10px;
+    color: #121212;
+    margin-left: 0px;
+}
+
+.checkbox {
+    width: 12px;
+    height: 12px;
+    margin-left: 0px;
+}
+
+.acc {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    margin-top: 50px;
+    color: #121212;
+    margin-left: 0px;
+}
+
+.signUp {
+    font-family: "montserrat";
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    color: #121212;
+    cursor: pointer;
+}
+
+.forgotPwd {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    color: #121212;
+    cursor: pointer;
+}
+
+.eye_btn {
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    right: 7px;
+    top: 37px;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+}
+
+.eye_btn:focus {
+    outline: none;
+}
+
+/* checkbox css */
+.container_check {
+        display: block;
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 12px;
+            -webkit-user-select: none;
+            user-select: none;
+            font-family: "montserrat";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            font-style: normal;
+            color: #a5a5a5;
+            cursor: pointer;
+            width: 100%;
+}
+
+/* Hide the browser's default checkbox */
+.container_check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+        top: 0;
+        left: 0;
+        height: 16px;
+        width: 17px;
+        background-color: #fff;
+        border: 2px solid;
+        border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container_check:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_check input:checked~.checkmark {
+    background-color: #fb3b71;
+        border-color: transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container_check input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_check .checkmark:after {
+        left: 5px;
+            top: 1px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+}
+/* checkbox css end */
+
+@media screen and (max-width: 580px) {
+    .form {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .formBody {
+        margin-top: 0px;
+    }
+
+    .forgot {
+        font-size: 13px;
+    }
+
+    .keep {
+        font-size: 13px;
+    }
+
+    .acc {
+        font-size: 13px;
+    }
+
+    .dots1 {
+        display: none;
+    }
+
+    .dots2 {
+        display: none;
+    }
+}

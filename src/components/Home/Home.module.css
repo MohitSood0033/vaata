@@ -1,0 +1,1063 @@
+.header {
+    padding: 20px 50px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.header_left {
+    margin-left: 12rem;
+    display: flex;
+    align-items: center;
+}
+
+.header_filter {
+    margin-right: 2rem;
+    position: relative;
+}
+
+.header_filter .btn {
+    background-color: transparent;
+    border-radius: 35px;
+    outline: none;
+    color: #717171;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    width: auto;
+    padding: 10px 50px 10px 20px;
+}
+
+.header_filter .btn_active {
+    background-color: #f63a6f;
+    border-radius: 35px;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    width: auto;
+    padding: 10px 50px 10px 20px;
+}
+
+.header_filter .btn svg {
+    margin-right: 20px;
+}
+.header_filter .btn_active svg {
+    margin-right: 20px;
+}
+
+.catalog {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 440%;
+    z-index: 9;
+    background-color: #fff;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.16));
+    border-radius: 10px !important;
+}
+
+.catalog .catalog_tab {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.col_tabsMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.col_tabsMain .tabs_link {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: normal;
+    color: #121212;
+    padding: 12px 10px;
+    opacity: 0.50;
+    position: relative;
+}
+
+.col_tabsMain .tabs_link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90px;
+    height: 2px;
+    background-color: transparent;
+    margin: auto;
+}
+
+.col_tabsMain .tabs_link:hover {
+    text-decoration: none;
+    color: #121212;
+    opacity: 1;
+}
+
+.col_tabsMain .tabs_link:hover::after {
+    background-color: #fb3b71;
+}
+
+.catalog_row {
+    margin: 0 15px;
+}
+
+.catalog_box {
+    border: none !important;
+}
+
+.catalog_box .cateBox_title {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.catalog_box .cateBox_title h2 {
+    font-size: 15px;
+}
+
+.catalog_box .cateBox_list {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.catalog_seeAll {
+    margin: 0px 20px 20px 0px;
+    text-align: right;
+}
+
+.catalog_seeAll a {
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+}
+
+.header_search .btn {
+    background-color: transparent;
+    border-radius: 35px;
+    outline: none;
+    color: #212121;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    width: 45px;
+    height: 45px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_search .btn svg {
+    color: #212121;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header_right .header_plus {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+}
+
+.header_right .header_plus .circle {
+    filter: drop-shadow(0px 3px 10px rgba(254, 60, 114, 0.45));
+}
+
+.header_right .header_plus .plus {
+    position: absolute;
+}
+
+.header_right .header_btns .btn {
+    background-color: transparent;
+    border-radius: 35px;
+    outline: none;
+    color: #212121;
+    border: 1px solid #dedede;
+    box-shadow: none;
+    width: 140px;
+    padding: 10px 0;
+}
+
+.header_right .header_btns .btn:last-child {
+    margin-left: 20px;
+    background-color: #fb3b71;
+    border-color: #fb3b71;
+    color: #fff;
+}
+
+/*  */
+
+.fav_wrap {
+    padding: 20px 0px 20px 50px;
+}
+
+.fav_left {
+    height: 425px;
+}
+
+.fav_leftContant h2 {
+    font-family: "montserrat";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+    margin: 0 0 25px;
+}
+
+.fav_leftContant p {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #717171;
+    margin: 0px;
+}
+
+.fav_leftContant h1 {
+    font-family: "montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 20px 0px;
+}
+
+.fav_leftbox {
+    margin-top: 40px;
+}
+
+.fav_leftbox h3 {
+    font-family: "montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0 0 14px;
+}
+
+.fav_leftbox p {
+    opacity: 0.80;
+    font-family: "montserrat";
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.fav_leftbtn {
+    margin: 25px 0 0;
+}
+
+.fav_leftbtn .btn {
+    background-color: #fb3b71;
+    border-radius: 0px;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fb3b71;
+    box-shadow: none;
+    width: 180px;
+    padding: 15px 0;
+}
+
+.fav_right {
+    height: 425px;
+}
+
+.fav_rightFirst {
+    height: 100%;
+}
+
+.fav_rightSecond {
+    height: 100%;
+}
+
+.fav_rightSecond .fav_rightSecondText {
+    height: 100%;
+}
+
+.fav_rightSecondText h2 {
+    font-family: "montserrat";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+    margin: 0 0 25px;
+    padding-left: 25px;
+}
+
+.fav_rightSecondText p {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #717171;
+    margin: 0px;
+    padding-left: 25px;
+}
+
+.fav_rightSecondText h1 {
+    font-family: "montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 35px 0px 35px;
+    padding-left: 25px;
+}
+
+.fav_rightSecondText .fav_img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+
+/*  */
+
+.threeBox_wrap {
+    padding: 60px 50px 60px 50px;
+    background: #f5f5f5;
+}
+
+.Box_main {
+    position: relative;
+    border-radius: 20px;
+    padding: 40px 30px;
+    background: #ff6f98;
+    background: linear-gradient(135deg, #ff6f98 0.00%, #fb3b71 100.00%);
+}
+
+.Box_main_after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    opacity: 0.40;
+    border-radius: 105px;
+    background: #ff6fde;
+    background: linear-gradient(135deg, #ff6fde 0.00%, #fb3b71 100.00%);
+    width: 90%;
+    margin: auto;
+}
+
+.Box_main img {
+    opacity: 0.10;
+}
+
+.Box_main .boxdot_1 {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 50px;
+}
+
+.Box_main .boxdot_2 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 27px;
+}
+
+.Box_main .boxdot_3 {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+}
+
+.Box_main .boxbag {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    height: 125px;
+}
+
+.Box_text {
+    text-align: center;
+}
+
+.Box_text h2 {
+    font-family: "montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+.Box_text p {
+    opacity: 0.90;
+    font-family: "montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 0 15px;
+}
+
+.Box_text button {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 30px;
+    background: #ffffff33;
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.Box_main_after_purple {
+    background: #ab87fd;
+    background: linear-gradient(-45deg,
+            #ab87fd 0.00%,
+            #c04df3 100.00%);
+}
+
+.Box_main_purple {
+    background: #ab87fd;
+    background: linear-gradient(-45deg,
+            #ab87fd 0.00%,
+            #c04df3 100.00%);
+}
+
+.Box_main_after_green {
+    background: #2ac3b2;
+    background: linear-gradient(-45deg,          
+            #2ac3b2 0.00%,
+            #72ead5 100.00%);
+}
+
+.Box_main_green {
+    background: #21cbb8;
+    background: linear-gradient(-45deg,
+            #21cbb8 0.00%,
+            #6ef3dc 100.00%);
+}
+
+/*  */
+.category_wrap {
+    padding: 60px 50px 60px 50px;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.top_leftBorder {
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.category_titile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category_titile h2 {
+    font-family: "montserrat";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px;
+}
+
+.category_titile button {
+    background: #fe3c72;
+    width: 110px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 13px;
+}
+
+.categoryBox {
+    border-color: #e7e7e7;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.cateBox_title {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.cateBox_title .box_icon {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.cateBox_title h2 {
+    font-family: "montserrat";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 0px;
+}
+
+.cateBox_list {
+    padding: 10px 12px;
+}
+
+.cateBox_list p {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.cateBox_list a {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+}
+
+
+/*  */
+
+.card_title {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 0 12px;
+    padding: 0px 0 12px;
+}
+
+.booking_card_title {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+    margin: 0 0 12px;
+    padding: 0px 0 12px;
+}
+
+.customer_bid {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0 0 0;
+}
+
+.rating {
+    width: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.customer_price {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0px 0px 0px;
+}
+
+.customer_price_deals {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: rgba(18, 18, 18, 0.25);
+    text-decoration: line-through;
+}
+
+.fixed_bid {
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    margin: 0 0 0;
+}
+
+.fixed_price {
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    text-align: left;
+    color: #fe3c72;
+    margin: 0px 0px 0px;
+}
+
+.fixed_price_deals {
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+}
+
+.card_price_head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_market {
+    border: none;
+    position: relative;
+    display: block !important;
+}
+
+.card_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.card_top .card_topLeft {
+    width: 100%;
+    height: 40px;
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin: 10px 5px 0 10px;
+}
+
+.card_top .card_topLeft img {
+    height: 25px;
+}
+
+.card_top .card_topCenter {
+    width: 100%;
+    height: 40px;
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    margin: 10px 10px 0 5px;
+}
+
+.card_top .card_topCenter p {
+    font-family: "montserrat";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    font-style: normal;
+    text-align: center;
+    color: #fb3b71;
+    margin: 0px;
+}
+
+.card_top .card_topCenter p span {
+    font-family: "montserrat";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.51);
+}
+
+.card_top .card_topRight {
+    width: 150px;
+    height: 40px;
+    opacity: 0.80;
+    border-color: #f5f5f5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 0 0px;
+}
+
+.card_top .card_topRight img {
+    height: 25px;
+}
+
+.best_booking .booking_btn {
+    background: #b246ce;
+    width: 110px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 13px;
+}
+
+.top_deals .deal_btn {
+    background: #21cbb8;
+    width: 110px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 13px;
+}
+
+.booking_city {
+    opacity: 1.00;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    text-align: center;
+    color: #121212;
+}
+
+.card_top .card_topLeft_deals {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 15px;
+    margin: 10px 5px 0 10px;
+}
+
+.card_top .card_topLeft_deals img {
+    height: 25px;
+}
+
+.card_top .card_topRight_deals {
+    width: 150px;
+    height: 40px;
+    opacity: 0.80;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 10px 10px 0 0px;
+}
+
+.card_top .card_topRight_deals img {
+    height: 25px;
+}
+
+.deals_off {
+    border-color: #fb3b71;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #fb3b71;
+    height: 30px;
+}
+
+.deals_card_title {
+    height: 65px;
+}
+
+.previous_btn {
+    background: #121212;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    line-height: 16px;
+    font-style: normal;
+    color: #ffffff;
+    width: 50%;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    outline: none !important;
+}
+
+.next_btn {
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+    font-style: normal;
+    color: #fb3b71;
+    width: 50%;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    outline: none !important;
+}
+
+.icon_wrap {
+    display: none;
+}
+
+/* accordion css */
+.accordion {
+    padding-top: 30px;
+}
+
+.AccordionItemHeading {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fav_wrap {
+        padding: 30px 10px 30px 10px;
+        border-top: 1px solid #f5f5f5;
+    }
+
+    .fav_left {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .fav_rightFirst {
+        height: auto;
+        padding-right: 15px;
+    }
+
+    .category_wrap {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .category_titile button {
+        display: none;
+    }
+
+    .top_leftBorder {
+        display: none;
+    }
+
+    .booking_card_title {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .deals_card_titl {
+        height: 45px px;
+    }
+
+    .customer_bid {
+        font-size: 12px;
+    }
+
+    .customer_price_deals {
+        font-size: 12px;
+    }
+
+    .fixed_price_deals {
+        font-size: 12px;
+    }
+
+    .card_title {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .card_price_head {
+        justify-content: space-between;
+    }
+
+    .fixed_bid {
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .customer_price {
+        font-size: 12px;
+    }
+
+    .fixed_price {
+        font-size: 12px;
+    }
+
+    .threeBox_wrap {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .threeBox_wrapTop {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Box_main {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .card_top {
+        align-items: unset;
+        height: 100%;
+    }
+
+    .card_top .card_topLeft {
+        height: 30px;
+        width: 90px;
+    }
+
+    .card_top .card_topLeft img {
+        height: 20px;
+    }
+
+    .card_top .card_topCenter {
+        height: 30px;
+        position: absolute;
+        bottom: 5px;
+        width: 95%;
+    }
+
+    .card_top .card_topCenter p {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .card_top .card_topRight {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card_top .card_topRight img {
+        height: 20px;
+    }
+
+    .card_top .card_topLeft_deals {
+        display: none;
+    }
+
+    .card_top .card_topRight_deals {
+        display: none;
+    }
+
+    .icon_wrap {
+        display: block;
+    }
+
+    .box_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box_icon .icon_img {
+        width: 25px;
+    }
+
+    .box_footer .footer_row {
+        display: block;
+    }
+
+    .aboutBox_title {
+        justify-content: center;
+    }
+
+    .footer_heading1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e7e7e7;
+        margin: 25px 0 25px;
+    }
+
+    .footer_heading1 p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #121212;
+    }
+
+    .footer_heading3 {
+        border-bottom: 1px solid #e7e7e7;
+        margin: 0px 0 25px;
+    }
+
+    .footer_heading3 p {
+        font-size: 18px;
+        font-style: normal;
+        opacity: 0.6;
+    }
+}

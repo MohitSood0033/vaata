@@ -1,0 +1,161 @@
+.threeBox_wrap {
+    padding: 60px 50px 60px 50px;
+    background: #f5f5f5;
+}
+.aboutBox_title {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+}
+
+.aboutBox_title img {
+    width: 150px;
+}
+
+.aboutBox_title h2 {
+    font-family: "montserrat";
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 32px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+}
+
+.cateBox_list {
+    padding: 10px 12px;
+}
+
+.subscribe {
+    width: 100%;
+    height: 40px;
+    border-color: #e7e7e7;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    background: #ffffff;
+    opacity: 0.50;
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    text-align: left;
+    color: #121212;
+    padding: 0 0 0 14px;
+}
+
+.subscribe_btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background: #fe3c72;
+    border: none;
+    font-family: "montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.subscribe_btn:focus {
+    outline: none;
+}
+
+.box_footer p {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .fav_wrap {
+        padding: 30px 10px 30px 10px;
+        border-top: 1px solid #f5f5f5;
+    }
+
+    .fav_left {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .fav_rightFirst {
+        height: auto;
+        padding-right: 15px;
+    }
+
+    .category_wrap {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .category_titile button {
+        display: none;
+    }
+
+    .top_leftBorder {
+        display: none;
+    }
+
+
+
+    .threeBox_wrap {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .threeBox_wrapTop {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Box_main {
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .icon_wrap {
+        display: block;
+    }
+
+    .box_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box_icon .icon_img {
+        width: 25px;
+    }
+
+    .box_footer .footer_row {
+        display: block;
+    }
+
+    .aboutBox_title {
+        justify-content: center;
+    }
+
+    .footer_heading1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #e7e7e7;
+        margin: 25px 0 25px;
+    }
+
+    .footer_heading1 p {
+        font-size: 18px;
+        font-weight: 500;
+        color: #121212;
+    }
+
+    .footer_heading3 {
+        border-bottom: 1px solid #e7e7e7;
+        margin: 0px 0 25px;
+    }
+
+    .footer_heading3 p {
+        font-size: 18px;
+        font-style: normal;
+        opacity: 0.6;
+    }
+}
